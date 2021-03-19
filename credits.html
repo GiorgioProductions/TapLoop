@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Get ready to tap! TapLoop is a tapping game like no other.">
+    <meta property="og:title" content="TapLoop">
+    <meta property="og:image" content="https://giorgioproductions.es/images/taploop.png">
+    <meta property="og:description" content="Get ready to tap!">
+    <meta name="robots" content="index, follow">
+
+    <title>TapLoop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/video.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="theme-color" content="#563d7c">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+  </head>
+
+  <body class="text-center">
+
+    <!--Title-->
+    <h1 id="taplooptitle"><strong>TapLoop</strong></h1>
+    <script type="text/javascript">
+      document.getElementById('taplooptitle').style.display = "none";
+    </script>
+
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg__video">
+          <source src="media/taploop.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">TapLoop</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a id="homeButton" onclick="goHome()" class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.giorgioproductions.gmbeat">Download</a>
+            <a id="creditsButton" onclick="goCredits()" class="nav-link" href="#">Credits</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="home" role="main" class="inner cover">
+        <h1 class="cover-heading">Get ready to tap</h1>
+        <p class="lead">TapLoop is a tapping game like no other.</p>
+        <a target="_blank" href='https://play.google.com/store/apps/details?id=com.giorgioproductions.gmbeat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style=" margin: auto;" height="100" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+      </main>
+
+      <main id="credits" role="main" class="inner cover" style="display: none;">
+        <h1>Credits</h1>
+        <h4>
+          Game Design | <a href="/">Giorgio Productions</a><br/>
+
+          Inspired by | <a target="_blank" href="https://osu.ppy.sh/home">osu!</a> & <a target="_blank" href="https://www.hotlinemiami.com/">Hotline Miami</a><br/>
+
+          Main Menu Theme | <a target="_blank" href="https://opengameart.org/content/free-run-8-bitish">TAD - Free Run [8 bit(ish)]</a><br/>
+
+          Game Theme | <a target="_blank" href="https://opengameart.org/content/alien-blues-8-bit-melody">Clemens H - Alien Blues 8 bit melody</a><br/>
+
+          Potion Sprite | <a target="_blank" href="https://opengameart.org/content/potion-bottles">Rafaelchm</a><br/>
+
+          Magnet Sprite | <a target="_blank" href="https://www.roblox.com/library/34001716/8-bit-magnet">cardude2001</a><br/>
+
+          Coin Sprite | <a target="_blank" href="https://opengameart.org/content/spinning-coin-8-bit-sprite">madcowj</a><br/>
+
+          Christmas Theme Song | <a target="_blank" href="https://opengameart.org/content/happy-synths-loop-with-slight-christmas-feeling">Pant0don</a><br/>
+
+          Christmas Background | <a target="_blank" href="https://vnitti.itch.io/">vnitti</a><br/>
+
+          Christmas Buttons | <a href="https://opengameart.org/content/free-bubble-game-button-pack">pzUH</a><br/>
+
+          Christmas Present | <a href="https://opengameart.org/content/a-puzzling-present-image-bank">gamesbyangelina</a><br/>
+        </h4>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>&copy; 2021 <a href="/">Giorgio Productions</a></p>
+        </div>
+      </footer>
+
+    </div>
+    <script src="js/taploop.js" charset="utf-8"></script>
+  </body>
+</html>
